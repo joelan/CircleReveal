@@ -2,6 +2,24 @@ CircularReveal
 ==============
 
 Lollipop ViewAnimationUtils.createCircularReveal for android api 14
+How to add dependency
+=====================
+
+
+ add a library dependency
+
+```groovy
+ repositories {
+        jcenter()
+
+
+    }
+	dependencies {
+	    compile 'com.joe.animationtool:circualreveal:1.0.0'
+	}
+```
+
+
 
 
 How to use:
@@ -57,23 +75,5 @@ Use regular `RevealFrameLayout` & `RevealLinearLayout` don't worry, only target 
     animator.start();
 
 ```
-
-How to add dependency
-=====================
-
-
- add a library dependency
-
-```groovy
- repositories {
-        jcenter()
-
-
-    }
-	dependencies {
-	    compile 'com.joe.animationtool:circualreveal:1.0.0'
-	}
-```
-
 
 
