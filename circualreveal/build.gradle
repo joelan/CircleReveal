@@ -13,5 +13,6 @@ android {
 
 
 }
+apply from: '../binary.gradle'
 
 
