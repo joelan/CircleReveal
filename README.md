@@ -75,5 +75,5 @@ Use regular `RevealFrameLayout` & `RevealLinearLayout` don't worry, only target 
     animator.start();
 
 ```
-
-
+修改自
+https://github.com/ozodrukh/CircularReveal
