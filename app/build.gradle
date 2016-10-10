@@ -20,12 +20,15 @@ android {
 
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile project(':circualreveal')
+ // compile project(':circualreveal')
+
 
   compile 'com.android.support:appcompat-v7:23.4.0'
   compile 'com.android.support:recyclerview-v7:23.4.0'
   compile 'com.android.support:cardview-v7:23.4.0'
   compile 'com.android.support:design:23.4.0'
+
+  compile 'com.joe.animationtool:circualreveal:1.0.0'
 
   compile 'com.squareup.picasso:picasso:2.5.2'
   compile 'com.jakewharton:butterknife:8.0.1'

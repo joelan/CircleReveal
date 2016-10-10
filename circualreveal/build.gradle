@@ -1,5 +1,8 @@
 apply plugin: 'com.android.library'
 
+//apply plugin: 'maven'
+
+
 
 version = "1.0.0"
 android {
@@ -13,6 +16,25 @@ android {
 
 
 }
-apply from: '../binary.gradle'
+group='com.joe.animationtool'
 
+/*repositories {
+    mavenCentral()
+}
+
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri('D:/repos'))
+            pom.groupId = "com.joe.animationtool"
+            pom.artifactId = archivesBaseName
+            pom.version = "1.0.0"
+        }
+    }
+
+
+}*/
+
+//apply from: '../binary.gradle'
 
