@@ -1,13 +1,12 @@
 CircularReveal
 ==============
+兼容androidandroid 6.0以下4.0以上的ViewAnimationUtils.createCircularReveal动画工具类
 
-Lollipop ViewAnimationUtils.createCircularReveal for android api 14
-How to add dependency
+怎么添加依赖
 =====================
 
 
- add a library dependency
-
+ 添加依赖Jcenter依赖库
 ```groovy
  repositories {
         jcenter()
@@ -22,7 +21,7 @@ How to add dependency
 
 
 
-How to use:
+怎么用:
 ======
 
 Use regular `RevealFrameLayout` & `RevealLinearLayout` don't worry, only target will be clipped :)
