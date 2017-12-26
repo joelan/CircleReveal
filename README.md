@@ -1,4 +1,6 @@
-CircularReveal
+# CircularReveal
+
+[ ![Download](https://api.bintray.com/packages/joelan/maven/CircularReveal/images/download.svg) ](https://bintray.com/joelan/maven/CircularReveal/_latestVersion)
 ==============
 兼容androidandroid 6.0以下4.0以上的ViewAnimationUtils.createCircularReveal动画工具类
 
